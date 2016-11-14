@@ -1,0 +1,27 @@
+body,ul,li,ol,div,span,p,img,a,input,form,nav,main{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+
+body{
+	background:#F5F4F2;
+}
+.clearfix:after,.clearfix:before{
+	content:"";
+	display:table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+.clearfix{
+	*zoom:1;
+}
+li{
+	list-style:none;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
